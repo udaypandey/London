@@ -4,68 +4,63 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>AppHost-TSBLocalModel-UI-Tests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>AppHost-TSBLocalNetwork-UI-Tests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>0</integer>
 		</dict>
 		<key>Pods-London-LondonUITests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>2</integer>
 		</dict>
 		<key>Pods-London.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>1</integer>
 		</dict>
 		<key>Pods-LondonTests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>3</integer>
 		</dict>
-		<key>TSBLocalNetwork-UI-TSBLocalNetworkUITests.xcscheme_^#shared#^_</key>
+		<key>TSBLocalModel-UI-TSBLocalModelUITests.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>isShown</key>
 			<true/>
-			<key>orderHint</key>
-			<integer>5</integer>
 		</dict>
-		<key>TSBLocalNetwork-Unit-TSBLocalNetworkTests.xcscheme_^#shared#^_</key>
+		<key>TSBLocalModel-Unit-TSBLocalModelTests.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>isShown</key>
 			<true/>
-			<key>orderHint</key>
-			<integer>6</integer>
+		</dict>
+		<key>TSBLocalModel.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>TSBLocalNetwork-UI-TSBLocalNetworkUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>TSBLocalNetwork-Unit-TSBLocalNetworkTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>TSBLocalNetwork.xcscheme</key>
 		<dict>
 			<key>isShown</key>
-			<true/>
-			<key>orderHint</key>
-			<integer>4</integer>
+			<false/>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
-	<dict>
-		<key>60F2551258A2EE95A6EEBFCECD2936E6</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>7429F0215F54432C66A3736F1577ACB0</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-	</dict>
+	<dict/>
 </dict>
 </plist>

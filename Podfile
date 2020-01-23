@@ -6,6 +6,7 @@ target 'London' do
   use_frameworks!
 
   # Pods for London
+  pod 'TSBLocalModel', :path => './TSBLocalModel', :testspecs => ['TSBLocalModelTests', 'TSBLocalModelUITests']
   pod 'TSBLocalNetwork', :path => './TSBLocalNetwork', :testspecs => ['TSBLocalNetworkTests', 'TSBLocalNetworkUITests']
 
   target 'LondonTests' do

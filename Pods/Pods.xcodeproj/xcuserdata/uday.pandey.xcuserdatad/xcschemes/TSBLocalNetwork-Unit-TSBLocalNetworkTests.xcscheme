@@ -14,9 +14,9 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4517C44D9E5015C52FBCF981EB370C88"
-               BuildableName = "TSBLocalNetwork.framework"
-               BlueprintName = "TSBLocalNetwork"
+               BlueprintIdentifier = "60F2551258A2EE95A6EEBFCECD2936E6"
+               BuildableName = "TSBLocalNetwork-Unit-TSBLocalNetworkTests.xctest"
+               BlueprintName = "TSBLocalNetwork-Unit-TSBLocalNetworkTests"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -37,16 +37,6 @@
                BlueprintIdentifier = "60F2551258A2EE95A6EEBFCECD2936E6"
                BuildableName = "TSBLocalNetwork-Unit-TSBLocalNetworkTests.xctest"
                BlueprintName = "TSBLocalNetwork-Unit-TSBLocalNetworkTests"
-               ReferencedContainer = "container:Pods.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7429F0215F54432C66A3736F1577ACB0"
-               BuildableName = "TSBLocalNetwork-UI-TSBLocalNetworkUITests.xctest"
-               BlueprintName = "TSBLocalNetwork-UI-TSBLocalNetworkUITests"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </TestableReference>

@@ -14,9 +14,9 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4517C44D9E5015C52FBCF981EB370C88"
-               BuildableName = "TSBLocalNetwork.framework"
-               BlueprintName = "TSBLocalNetwork"
+               BlueprintIdentifier = "28D26BF0D3053C4D13B669BD465F10DF"
+               BuildableName = "AppHost-TSBLocalModel-UI-Tests.app"
+               BlueprintName = "AppHost-TSBLocalModel-UI-Tests"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -29,28 +29,15 @@
       buildConfiguration = "Debug">
       <AdditionalOptions>
       </AdditionalOptions>
-      <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "60F2551258A2EE95A6EEBFCECD2936E6"
-               BuildableName = "TSBLocalNetwork-Unit-TSBLocalNetworkTests.xctest"
-               BlueprintName = "TSBLocalNetwork-Unit-TSBLocalNetworkTests"
-               ReferencedContainer = "container:Pods.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7429F0215F54432C66A3736F1577ACB0"
-               BuildableName = "TSBLocalNetwork-UI-TSBLocalNetworkUITests.xctest"
-               BlueprintName = "TSBLocalNetwork-UI-TSBLocalNetworkUITests"
-               ReferencedContainer = "container:Pods.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-      </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "28D26BF0D3053C4D13B669BD465F10DF"
+            BuildableName = "AppHost-TSBLocalModel-UI-Tests.app"
+            BlueprintName = "AppHost-TSBLocalModel-UI-Tests"
+            ReferencedContainer = "container:Pods.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </TestAction>
    <LaunchAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
@@ -64,6 +51,16 @@
       allowLocationSimulation = "YES">
       <AdditionalOptions>
       </AdditionalOptions>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "28D26BF0D3053C4D13B669BD465F10DF"
+            BuildableName = "AppHost-TSBLocalModel-UI-Tests.app"
+            BlueprintName = "AppHost-TSBLocalModel-UI-Tests"
+            ReferencedContainer = "container:Pods.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </LaunchAction>
    <ProfileAction
       savedToolIdentifier = ""
@@ -71,6 +68,15 @@
       debugDocumentVersioning = "YES"
       buildConfiguration = "Release"
       shouldUseLaunchSchemeArgsEnv = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "28D26BF0D3053C4D13B669BD465F10DF"
+            BuildableName = "AppHost-TSBLocalModel-UI-Tests.app"
+            BlueprintName = "AppHost-TSBLocalModel-UI-Tests"
+            ReferencedContainer = "container:Pods.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

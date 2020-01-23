@@ -7,39 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0108AA736646129A1F86870C408E1A01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B1617B8B4D99D4BD3CF1EF9EAD021F7 /* Foundation.framework */; };
-		05F890A40952A9A84D0992D8C627327A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B1617B8B4D99D4BD3CF1EF9EAD021F7 /* Foundation.framework */; };
-		14C6E1F9E423AEF967F5E733F10B5152 /* TSBLocalNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52DD550875A448A9AF58CFAFE72D6BA3 /* TSBLocalNetwork.framework */; };
-		19E5E95D30915BD84B09F0011159AF25 /* TSBLocalNetwork-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 99DC374B14AA43C85F810BF00EAF67C9 /* TSBLocalNetwork-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		25F6348C869FD71206637349DE6D9117 /* Pods-London-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 99B2884F9D77AFCE5DC4C0ED4CE69C71 /* Pods-London-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2B573841484F483A472F06B228AF5CB6 /* TSBLocalNetworkReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18D5AF103B41EFD258C28C3D206C8CE /* TSBLocalNetworkReplaceMe.swift */; };
-		30B506329C69D20E9D6B4C991B811089 /* Pods-London-LondonUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C4FA64D0BC4B2CBB3E71271A0DB0B5C /* Pods-London-LondonUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		36A701C063DD7853A2F8E2B8E44E6A42 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B1617B8B4D99D4BD3CF1EF9EAD021F7 /* Foundation.framework */; };
-		50793626359830A0832CB010CE330D8D /* TSBLocalNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52DD550875A448A9AF58CFAFE72D6BA3 /* TSBLocalNetwork.framework */; };
-		67D278ADF4FE6E0AA7A05E89E411E618 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6020F4D2BFFE8021388AF7DDCD1BB6C0 /* LaunchScreen.storyboard */; };
-		6EE2611B6CAB362454CCC4C648DD7A95 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B1617B8B4D99D4BD3CF1EF9EAD021F7 /* Foundation.framework */; };
-		734D21B72A2BE7935D4D599B75BAB489 /* Pods-London-LondonUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C061FDCD075E1FEC2A1096296EE62ADF /* Pods-London-LondonUITests-dummy.m */; };
-		8A0CB1B409802604F4DD6B9909AF15BA /* TSBLocalNetworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6105636E73232FB3996FB31F0EFB0B48 /* TSBLocalNetworkTests.swift */; };
-		92D0F2C85816F73A69389A332E7339F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 413803ED0EECBC743457C86A3EAA8D30 /* main.m */; };
-		94B1ED96EEDD967FB082EB567EA20B35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B1617B8B4D99D4BD3CF1EF9EAD021F7 /* Foundation.framework */; };
-		C6E063E57F2B3B8975AF2BEB0DE1C105 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B1617B8B4D99D4BD3CF1EF9EAD021F7 /* Foundation.framework */; };
-		D9DCC593A3E29293CEF8A2D4F169AC0D /* TSBLocalNetwork-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A958C6FD614AC3DD1B0C52E116481661 /* TSBLocalNetwork-dummy.m */; };
-		E130BACDD2F8B506A669F0516905EF76 /* Pods-London-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 95202250730BB86CAA089AC33706CD92 /* Pods-London-dummy.m */; };
-		F2D8109EBD133D34D2CE3EA92E55126A /* TSBLocalNetworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17D57672FFE7A58755D27E64A3E1584 /* TSBLocalNetworkUITests.swift */; };
+		04A4F61AB2C3C2B28C72798D58DCD885 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99F4751267D64338A33587E10BB1C8AF /* Foundation.framework */; };
+		05F890A40952A9A84D0992D8C627327A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99F4751267D64338A33587E10BB1C8AF /* Foundation.framework */; };
+		13B80FC582EB91F23CC4CCCF59CDBDE8 /* Pods-London-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 95202250730BB86CAA089AC33706CD92 /* Pods-London-dummy.m */; };
+		14C6E1F9E423AEF967F5E733F10B5152 /* TSBLocalNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68A7F4D4E90CB0521ACF81AA7EF03F37 /* TSBLocalNetwork.framework */; };
+		1CFEAF7C781F95064BF57142D8A8DCBA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99F4751267D64338A33587E10BB1C8AF /* Foundation.framework */; };
+		1F2F300A8169AEC5590B0D6E30EFCA64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D06499481D9359525DF8F17CB263A18A /* main.m */; };
+		209F661D7A8EE5FBE8A7C3448E1D1DD3 /* TSBLocalNetwork-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EE96CAE983B9B31A021739ACB6699895 /* TSBLocalNetwork-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36A701C063DD7853A2F8E2B8E44E6A42 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99F4751267D64338A33587E10BB1C8AF /* Foundation.framework */; };
+		50793626359830A0832CB010CE330D8D /* TSBLocalNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68A7F4D4E90CB0521ACF81AA7EF03F37 /* TSBLocalNetwork.framework */; };
+		57D517F71679369A562CA739A26A06B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89E3A31A6E9984CE2E5E99DE757F1198 /* LaunchScreen.storyboard */; };
+		5F1DB3ECBCBE37EC10B3AA5999EA4015 /* TSBLocalModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB43C3FBAFE1C34F8BBFB456E45DA20 /* TSBLocalModelTests.swift */; };
+		62CD0DE16225E0815CC0336AE5F27567 /* TSBLocalNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68A7F4D4E90CB0521ACF81AA7EF03F37 /* TSBLocalNetwork.framework */; };
+		65074D23C99C8C6473DF2A025404F1EB /* Pods-London-LondonUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C4FA64D0BC4B2CBB3E71271A0DB0B5C /* Pods-London-LondonUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67D278ADF4FE6E0AA7A05E89E411E618 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46BEDC4430C9F051832B00C72BA6CBA8 /* LaunchScreen.storyboard */; };
+		6ED59A7D642E71ECA60752384E941B4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99F4751267D64338A33587E10BB1C8AF /* Foundation.framework */; };
+		6FCCEEEA870F282AD54F6532122B26B1 /* TSBLocalModel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2A564ECC4FE5D88A7D36E3DA7221EE /* TSBLocalModel-dummy.m */; };
+		7CC2F2F8B2613F361AF72A313F388794 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99F4751267D64338A33587E10BB1C8AF /* Foundation.framework */; };
+		818EA6C4EC1080EBFDD423861B885C3D /* TSBLocalModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF0EA1EC69EE34B7369627F15437DF88 /* TSBLocalModel.framework */; };
+		8A0CB1B409802604F4DD6B9909AF15BA /* TSBLocalNetworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B5766E5DA7A41652D5346BFDFE5DEB /* TSBLocalNetworkTests.swift */; };
+		92D0F2C85816F73A69389A332E7339F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C676312736CBDAC209F5F0E144E19331 /* main.m */; };
+		94B1ED96EEDD967FB082EB567EA20B35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99F4751267D64338A33587E10BB1C8AF /* Foundation.framework */; };
+		96DD464D91477BE7E91CFFE6ECB57173 /* TSBLocalNetworkReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2B3D02E9ECD156ACDE6D8FE03EDDF0 /* TSBLocalNetworkReplaceMe.swift */; };
+		B369C13C05F0C00C49C232098B3A743E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99F4751267D64338A33587E10BB1C8AF /* Foundation.framework */; };
+		BA9D115C527495B375464B6A1FED46FA /* TSBLocalNetwork-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 20EC995AB02FF79CDA54D6F6B14F87DC /* TSBLocalNetwork-dummy.m */; };
+		BC68C0FC364E40BD35E33454515B6014 /* TSBLocalModelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41000CC842E7069B534E1F5E693777C /* TSBLocalModelUITests.swift */; };
+		C219A5A68EE04376B6B9798B048600D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99F4751267D64338A33587E10BB1C8AF /* Foundation.framework */; };
+		C6189CE1CC845E04E075B9F94AD439C8 /* TSBLocalModel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C66D26C45020ED41A98849A7220BB897 /* TSBLocalModel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6E063E57F2B3B8975AF2BEB0DE1C105 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99F4751267D64338A33587E10BB1C8AF /* Foundation.framework */; };
+		CFD53DD956226E20DB66C376E3D6765E /* Pods-London-LondonUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C061FDCD075E1FEC2A1096296EE62ADF /* Pods-London-LondonUITests-dummy.m */; };
+		D3D71558A9B5E22689786A2F16AE0A92 /* TSBLocalNetworkReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8B91DD624A8C3E7792003D3EB683D /* TSBLocalNetworkReplaceMe.swift */; };
+		DBFC12A925C212AE9C5FE377797A7E0E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99F4751267D64338A33587E10BB1C8AF /* Foundation.framework */; };
+		E12A00C1DB67CAA40F62E933A198DBD4 /* TSBLocalModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF0EA1EC69EE34B7369627F15437DF88 /* TSBLocalModel.framework */; };
+		F2D8109EBD133D34D2CE3EA92E55126A /* TSBLocalNetworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8FB88143A74F3ADFC9409FC7E466F9 /* TSBLocalNetworkUITests.swift */; };
 		F4474CCEA173A42E73A61D1431669F19 /* Pods-LondonTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 04CC6B8681F1190D7458B99015E6A496 /* Pods-LondonTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FA65EAC81F968C94A8F53477A91DF7EF /* Pods-LondonTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B50FA1A3081BAC404D0A103DEF61FD7 /* Pods-LondonTests-dummy.m */; };
-		FAA639A3B08B654EDEF8563DCC749188 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B1617B8B4D99D4BD3CF1EF9EAD021F7 /* Foundation.framework */; };
+		FFDE5417B75AF766C0CD5482CD0A595D /* Pods-London-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 99B2884F9D77AFCE5DC4C0ED4CE69C71 /* Pods-London-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		244A2027F25D85065ACD497ABD8AD2D3 /* PBXContainerItemProxy */ = {
+		32B892511872A1A78A94B46B1515C9BA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 4517C44D9E5015C52FBCF981EB370C88;
 			remoteInfo = TSBLocalNetwork;
 		};
-		32B892511872A1A78A94B46B1515C9BA /* PBXContainerItemProxy */ = {
+		5123A7B28332DA3C56049DE151DD779C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -53,12 +67,40 @@
 			remoteGlobalIDString = 4517C44D9E5015C52FBCF981EB370C88;
 			remoteInfo = TSBLocalNetwork;
 		};
-		CF3C951C91B73B026CF93F14AD6FA37A /* PBXContainerItemProxy */ = {
+		5F64501C8B12AB991073FEC593A15B30 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 4517C44D9E5015C52FBCF981EB370C88;
 			remoteInfo = TSBLocalNetwork;
+		};
+		7AC4BF7E981C97F5C009835C3E781B04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28D26BF0D3053C4D13B669BD465F10DF;
+			remoteInfo = "AppHost-TSBLocalModel-UI-Tests";
+		};
+		803A37D9BD5332DB4A3BBCC7BBE69F24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8C25EF6632FCFB37BC378DEF9913273;
+			remoteInfo = TSBLocalModel;
+		};
+		A23246DA52F3A7AE9ED92E18DDCD7C79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4517C44D9E5015C52FBCF981EB370C88;
+			remoteInfo = TSBLocalNetwork;
+		};
+		A7D54E8919928FF343922FB377BF092B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8C25EF6632FCFB37BC378DEF9913273;
+			remoteInfo = TSBLocalModel;
 		};
 		DBD6B46792E23512FB69F250B5EEA5AA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -66,6 +108,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = 7A4B860B0ABC12AA577499E9C0D4FB88;
 			remoteInfo = "AppHost-TSBLocalNetwork-UI-Tests";
+		};
+		E302E576DD574E193B456582E00E9AAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8C25EF6632FCFB37BC378DEF9913273;
+			remoteInfo = TSBLocalModel;
+		};
+		F96B65D2C0EA076CEF2B830CDE6EF59F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8C25EF6632FCFB37BC378DEF9913273;
+			remoteInfo = TSBLocalModel;
 		};
 		F9FC43887460C62C015476D4C24AAB15 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -77,66 +133,100 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0135F3A01E88EC53F3F3F537C6E4757C /* TSBLocalNetwork.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TSBLocalNetwork.xcconfig; sourceTree = "<group>"; };
 		04CC6B8681F1190D7458B99015E6A496 /* Pods-LondonTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LondonTests-umbrella.h"; sourceTree = "<group>"; };
-		0B1617B8B4D99D4BD3CF1EF9EAD021F7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		0A2A564ECC4FE5D88A7D36E3DA7221EE /* TSBLocalModel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TSBLocalModel-dummy.m"; sourceTree = "<group>"; };
 		0B50FA1A3081BAC404D0A103DEF61FD7 /* Pods-LondonTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LondonTests-dummy.m"; sourceTree = "<group>"; };
 		0D9373F6ED6E894E3888ED8350F88B5A /* Pods-London-LondonUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-London-LondonUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		0EAC89E3C2B54CE24E0F0395A64EB677 /* AppHost-TSBLocalNetwork-UI-Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "AppHost-TSBLocalNetwork-UI-Tests-Info.plist"; path = "../Pods/AppHost-TSBLocalNetwork-UI-Tests/AppHost-TSBLocalNetwork-UI-Tests-Info.plist"; sourceTree = "<group>"; };
-		11D7FBFDD12DC9FAE44C65756315D405 /* TSBLocalNetwork.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TSBLocalNetwork.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		11D37EC112FFEC6898521270882815DF /* TSBLocalNetwork.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TSBLocalNetwork.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		19CC8FA2B67F7FB206296351FD85B6DF /* TSBLocalNetwork-Unit-TSBLocalNetworkTests */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "TSBLocalNetwork-Unit-TSBLocalNetworkTests"; path = "TSBLocalNetwork-Unit-TSBLocalNetworkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A12161EEF213EB01B9C5954201CA150 /* Pods-London-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-London-acknowledgements.plist"; sourceTree = "<group>"; };
 		1BCBC64AABFC03FA87AB5FA532A54D88 /* Pods-LondonTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LondonTests-Info.plist"; sourceTree = "<group>"; };
-		20966C4D807B4B4E82C364E6CFAF0B80 /* TSBLocalNetwork-Unit-TSBLocalNetworkTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "TSBLocalNetwork-Unit-TSBLocalNetworkTests-frameworks.sh"; sourceTree = "<group>"; };
+		20EC995AB02FF79CDA54D6F6B14F87DC /* TSBLocalNetwork-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TSBLocalNetwork-dummy.m"; sourceTree = "<group>"; };
 		21DFF81AEE4B631326C35C44855EC9C1 /* Pods-London-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-London-acknowledgements.markdown"; sourceTree = "<group>"; };
-		21E8685777AFB5EAC94345DDF45A0C01 /* TSBLocalNetwork-Unit-TSBLocalNetworkTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TSBLocalNetwork-Unit-TSBLocalNetworkTests-Info.plist"; sourceTree = "<group>"; };
 		26F86738C05338BC1A6847E750D53B67 /* Pods_London_LondonUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_London_LondonUITests.framework; path = "Pods-London-LondonUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27ABD0C3243CDB0503C89DF4363673BE /* TSBLocalNetwork-UI-TSBLocalNetworkUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TSBLocalNetwork-UI-TSBLocalNetworkUITests-Info.plist"; sourceTree = "<group>"; };
 		288D5BBE7A9804F7BB18B871B0450505 /* Pods-London.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-London.debug.xcconfig"; sourceTree = "<group>"; };
+		2B98BC93FD4611C7899E081EE729AFA4 /* TSBLocalNetwork-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TSBLocalNetwork-prefix.pch"; sourceTree = "<group>"; };
 		2C4FA64D0BC4B2CBB3E71271A0DB0B5C /* Pods-London-LondonUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-London-LondonUITests-umbrella.h"; sourceTree = "<group>"; };
+		2F2B3D02E9ECD156ACDE6D8FE03EDDF0 /* TSBLocalNetworkReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TSBLocalNetworkReplaceMe.swift; path = TSBLocalNetwork/Classes/TSBLocalNetworkReplaceMe.swift; sourceTree = "<group>"; };
+		30B38013BB6E1A1925849AF87633CC6A /* TSBLocalNetwork-Unit-TSBLocalNetworkTests-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TSBLocalNetwork-Unit-TSBLocalNetworkTests-prefix.pch"; sourceTree = "<group>"; };
 		311E53D5D7F7AF78AC1413D7FB285C28 /* Pods-London-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-London-Info.plist"; sourceTree = "<group>"; };
 		325DC3C3136BEA11E0C59BEEE032FFCD /* Pods_LondonTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LondonTests.framework; path = "Pods-LondonTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3885DA1F2BC5CAB298A81DF69EA8716E /* TSBLocalNetwork.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TSBLocalNetwork.modulemap; sourceTree = "<group>"; };
+		360D973F0983E840F5ED33AE3941CD66 /* TSBLocalModel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TSBLocalModel-Info.plist"; sourceTree = "<group>"; };
+		3736BC60BC5022902D973DF90CE8D26D /* AppHost-TSBLocalNetwork-UI-Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "AppHost-TSBLocalNetwork-UI-Tests-Info.plist"; path = "../Pods/AppHost-TSBLocalNetwork-UI-Tests/AppHost-TSBLocalNetwork-UI-Tests-Info.plist"; sourceTree = "<group>"; };
 		410E3028C154B11CA578582055A01B55 /* Pods-LondonTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LondonTests.modulemap"; sourceTree = "<group>"; };
-		413803ED0EECBC743457C86A3EAA8D30 /* main.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "../Pods/AppHost-TSBLocalNetwork-UI-Tests/main.m"; sourceTree = "<group>"; };
+		46BEDC4430C9F051832B00C72BA6CBA8 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = "../Pods/AppHost-TSBLocalNetwork-UI-Tests/LaunchScreen.storyboard"; sourceTree = "<group>"; };
 		480A5B784044B186E9B18DE6083BA023 /* Pods-LondonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LondonTests.debug.xcconfig"; sourceTree = "<group>"; };
-		4C52F59628704492CABF30535F197AE1 /* TSBLocalNetwork-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TSBLocalNetwork-prefix.pch"; sourceTree = "<group>"; };
-		52DD550875A448A9AF58CFAFE72D6BA3 /* TSBLocalNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TSBLocalNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		542F1AD0EFBC33D3E4F21F2F020AA66B /* Pods-London-LondonUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-London-LondonUITests.modulemap"; sourceTree = "<group>"; };
-		6020F4D2BFFE8021388AF7DDCD1BB6C0 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = "../Pods/AppHost-TSBLocalNetwork-UI-Tests/LaunchScreen.storyboard"; sourceTree = "<group>"; };
-		6105636E73232FB3996FB31F0EFB0B48 /* TSBLocalNetworkTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TSBLocalNetworkTests.swift; path = TSBLocalNetworkTests/TSBLocalNetworkTests.swift; sourceTree = "<group>"; };
-		6B188F5D6177A8124398FE19F24BBCE3 /* TSBLocalNetwork-UI-TSBLocalNetworkUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "TSBLocalNetwork-UI-TSBLocalNetworkUITests-frameworks.sh"; sourceTree = "<group>"; };
+		543291CCB000D9A35682495A2541CADB /* TSBLocalNetwork.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TSBLocalNetwork.modulemap; sourceTree = "<group>"; };
+		586A860F889B79BDE2B14A3D72B91F36 /* TSBLocalModel-UI-TSBLocalModelUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "TSBLocalModel-UI-TSBLocalModelUITests"; path = "TSBLocalModel-UI-TSBLocalModelUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CB43C3FBAFE1C34F8BBFB456E45DA20 /* TSBLocalModelTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TSBLocalModelTests.swift; path = TSBLocalModelTests/TSBLocalModelTests.swift; sourceTree = "<group>"; };
+		6040429AE2689662A7C9AAD27C85EB06 /* TSBLocalModel.ui-tsblocalmodeluitests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "TSBLocalModel.ui-tsblocalmodeluitests.xcconfig"; sourceTree = "<group>"; };
+		61AF054D00EF1D0B04B666B4C475EA24 /* AppHost-TSBLocalModel-UI-Tests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AppHost-TSBLocalModel-UI-Tests.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61F0CC79FBE885421D9191B9C51620A3 /* TSBLocalNetwork-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TSBLocalNetwork-Info.plist"; sourceTree = "<group>"; };
+		66C346EF485E92CC53F643B3CFA62F48 /* TSBLocalModel-UI-TSBLocalModelUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TSBLocalModel-UI-TSBLocalModelUITests-Info.plist"; sourceTree = "<group>"; };
+		68A7F4D4E90CB0521ACF81AA7EF03F37 /* TSBLocalNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TSBLocalNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68B5766E5DA7A41652D5346BFDFE5DEB /* TSBLocalNetworkTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TSBLocalNetworkTests.swift; path = TSBLocalNetworkTests/TSBLocalNetworkTests.swift; sourceTree = "<group>"; };
+		6935871BF2068E0560D860666CB5F910 /* TSBLocalNetwork-Unit-TSBLocalNetworkTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "TSBLocalNetwork-Unit-TSBLocalNetworkTests-frameworks.sh"; sourceTree = "<group>"; };
+		6CDA0E71B48CCFCB6A2B9E1BCBA9C2CC /* TSBLocalNetwork.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TSBLocalNetwork.xcconfig; sourceTree = "<group>"; };
 		70D0BAE927F85BE8E157F73FD32FBEEB /* Pods-London.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-London.release.xcconfig"; sourceTree = "<group>"; };
-		731622CBADB89BD26347BA0908C2E705 /* TSBLocalNetwork-UI-TSBLocalNetworkUITests-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TSBLocalNetwork-UI-TSBLocalNetworkUITests-prefix.pch"; sourceTree = "<group>"; };
+		74F3B95ABDE8CBD1CCABBA3711E78672 /* TSBLocalModel-UI-TSBLocalModelUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "TSBLocalModel-UI-TSBLocalModelUITests-frameworks.sh"; sourceTree = "<group>"; };
 		76BD5D11667BE6ADE928DA516D36AFCC /* Pods-London-LondonUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-London-LondonUITests-Info.plist"; sourceTree = "<group>"; };
+		7805E1DEEA9631F3D80722C93B0D4E20 /* TSBLocalNetwork-Unit-TSBLocalNetworkTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TSBLocalNetwork-Unit-TSBLocalNetworkTests-Info.plist"; sourceTree = "<group>"; };
 		7D561E3921326270C30E1FF63E258915 /* Pods-London.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-London.modulemap"; sourceTree = "<group>"; };
-		8DF0337D873A7E046C52BC63614D9214 /* TSBLocalNetwork-Unit-TSBLocalNetworkTests-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TSBLocalNetwork-Unit-TSBLocalNetworkTests-prefix.pch"; sourceTree = "<group>"; };
+		7E1D2AC87A0FEBD93A0EED9065371E16 /* TSBLocalModel-Unit-TSBLocalModelTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "TSBLocalModel-Unit-TSBLocalModelTests-frameworks.sh"; sourceTree = "<group>"; };
+		7FABD3F81D5091A230F13579FF99C25A /* TSBLocalModel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TSBLocalModel-prefix.pch"; sourceTree = "<group>"; };
+		85E7D63B176CC3909FCC29AAD3DF7B61 /* TSBLocalModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TSBLocalModel.framework; path = TSBLocalModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88FC509745F8B1766763CA14314F8B6A /* TSBLocalNetwork.ui-tsblocalnetworkuitests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "TSBLocalNetwork.ui-tsblocalnetworkuitests.xcconfig"; sourceTree = "<group>"; };
+		89E3A31A6E9984CE2E5E99DE757F1198 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = "../Pods/AppHost-TSBLocalModel-UI-Tests/LaunchScreen.storyboard"; sourceTree = "<group>"; };
+		8EC8B91DD624A8C3E7792003D3EB683D /* TSBLocalNetworkReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TSBLocalNetworkReplaceMe.swift; path = TSBLocalModel/Classes/TSBLocalNetworkReplaceMe.swift; sourceTree = "<group>"; };
+		92C85746D9026DB1B5DDB273AAFA37AF /* TSBLocalModel-Unit-TSBLocalModelTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TSBLocalModel-Unit-TSBLocalModelTests-Info.plist"; sourceTree = "<group>"; };
+		934C1A91785D5AED84E111025B6D6D44 /* AppHost-TSBLocalModel-UI-Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "AppHost-TSBLocalModel-UI-Tests-Info.plist"; path = "../Pods/AppHost-TSBLocalModel-UI-Tests/AppHost-TSBLocalModel-UI-Tests-Info.plist"; sourceTree = "<group>"; };
 		95202250730BB86CAA089AC33706CD92 /* Pods-London-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-London-dummy.m"; sourceTree = "<group>"; };
 		99B2884F9D77AFCE5DC4C0ED4CE69C71 /* Pods-London-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-London-umbrella.h"; sourceTree = "<group>"; };
-		99DC374B14AA43C85F810BF00EAF67C9 /* TSBLocalNetwork-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TSBLocalNetwork-umbrella.h"; sourceTree = "<group>"; };
+		99F4751267D64338A33587E10BB1C8AF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		9C192CFA4920C1CBFA52E7AAF3715E10 /* Pods-LondonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LondonTests.release.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A8C2FF02512F36A6F389773D3CF80BA6 /* TSBLocalNetwork-UI-TSBLocalNetworkUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TSBLocalNetwork-UI-TSBLocalNetworkUITests-Info.plist"; sourceTree = "<group>"; };
-		A958C6FD614AC3DD1B0C52E116481661 /* TSBLocalNetwork-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TSBLocalNetwork-dummy.m"; sourceTree = "<group>"; };
+		A672874CC18A271B908E4AA5B9448F03 /* TSBLocalNetwork-UI-TSBLocalNetworkUITests-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TSBLocalNetwork-UI-TSBLocalNetworkUITests-prefix.pch"; sourceTree = "<group>"; };
 		ABD919F535867313775459480BC6D3B7 /* Pods_London.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_London.framework; path = "Pods-London.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AEC6D710A692D0F1F3DDB34EB50183AC /* TSBLocalNetwork.ui-tsblocalnetworkuitests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "TSBLocalNetwork.ui-tsblocalnetworkuitests.xcconfig"; sourceTree = "<group>"; };
-		B2202C63249CF377FD87A95A8E5F78A2 /* TSBLocalNetwork.unit-tsblocalnetworktests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "TSBLocalNetwork.unit-tsblocalnetworktests.xcconfig"; sourceTree = "<group>"; };
+		ADD563DE8844A8D4E942FCE1DA67CF0C /* TSBLocalModel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TSBLocalModel.modulemap; sourceTree = "<group>"; };
 		C061FDCD075E1FEC2A1096296EE62ADF /* Pods-London-LondonUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-London-LondonUITests-dummy.m"; sourceTree = "<group>"; };
-		C17D57672FFE7A58755D27E64A3E1584 /* TSBLocalNetworkUITests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TSBLocalNetworkUITests.swift; path = TSBLocalNetworkUITests/TSBLocalNetworkUITests.swift; sourceTree = "<group>"; };
-		CCAA7943065AFD49612A405A16E007F7 /* TSBLocalNetwork-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TSBLocalNetwork-Info.plist"; sourceTree = "<group>"; };
+		C375BBB76D4AE57B9203B7F356627462 /* TSBLocalModel-Unit-TSBLocalModelTests */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "TSBLocalModel-Unit-TSBLocalModelTests"; path = "TSBLocalModel-Unit-TSBLocalModelTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C66D26C45020ED41A98849A7220BB897 /* TSBLocalModel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TSBLocalModel-umbrella.h"; sourceTree = "<group>"; };
+		C676312736CBDAC209F5F0E144E19331 /* main.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "../Pods/AppHost-TSBLocalNetwork-UI-Tests/main.m"; sourceTree = "<group>"; };
+		D05F5B1477A5FE1C36921138B615DA9D /* TSBLocalModel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TSBLocalModel.xcconfig; sourceTree = "<group>"; };
+		D06499481D9359525DF8F17CB263A18A /* main.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "../Pods/AppHost-TSBLocalModel-UI-Tests/main.m"; sourceTree = "<group>"; };
 		D1C63DBBFF06C3D01A074C2D1B92233E /* TSBLocalNetwork-UI-TSBLocalNetworkUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "TSBLocalNetwork-UI-TSBLocalNetworkUITests"; path = "TSBLocalNetwork-UI-TSBLocalNetworkUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2D0A614BEF85129A0EF9C582320ECDF /* Pods-London-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-London-frameworks.sh"; sourceTree = "<group>"; };
+		D41000CC842E7069B534E1F5E693777C /* TSBLocalModelUITests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TSBLocalModelUITests.swift; path = TSBLocalModelUITests/TSBLocalModelUITests.swift; sourceTree = "<group>"; };
 		D4815DD735DA293E3777ADD0C6843584 /* Pods-London-LondonUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-London-LondonUITests-frameworks.sh"; sourceTree = "<group>"; };
 		D7CBAB04A06F99766485BFD5CD82B9E2 /* Pods-London-LondonUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-London-LondonUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D97818D8EAEC2DEC3EA69EF8243EBDF9 /* Pods-LondonTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LondonTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		DA9CC51FBFE18DB7A5EA91836D0DB661 /* Pods-LondonTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LondonTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DDDBD825FCC23C159A7DBDC9DDFC511E /* TSBLocalModel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TSBLocalModel.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		DE2BEF28012EDD285F0F4EDBCAF88F23 /* Pods-London-LondonUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-London-LondonUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E18D5AF103B41EFD258C28C3D206C8CE /* TSBLocalNetworkReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TSBLocalNetworkReplaceMe.swift; path = TSBLocalNetwork/Classes/TSBLocalNetworkReplaceMe.swift; sourceTree = "<group>"; };
+		E91D9C712D1DB55768A9538032ECB6C2 /* TSBLocalModel-Unit-TSBLocalModelTests-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TSBLocalModel-Unit-TSBLocalModelTests-prefix.pch"; sourceTree = "<group>"; };
 		EDB65957E1C91C9854F7ED7760A0EA28 /* TSBLocalNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TSBLocalNetwork.framework; path = TSBLocalNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE96CAE983B9B31A021739ACB6699895 /* TSBLocalNetwork-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TSBLocalNetwork-umbrella.h"; sourceTree = "<group>"; };
+		EF0EA1EC69EE34B7369627F15437DF88 /* TSBLocalModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TSBLocalModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F322050F0CFD6813FB27D6F746C7FBEC /* AppHost-TSBLocalNetwork-UI-Tests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AppHost-TSBLocalNetwork-UI-Tests.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F44309752604D87FE3EB8AEFCC4A1F8A /* TSBLocalModel-UI-TSBLocalModelUITests-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TSBLocalModel-UI-TSBLocalModelUITests-prefix.pch"; sourceTree = "<group>"; };
 		F62E7597207D92FFD80D1A3A29AD8F3A /* Pods-London-LondonUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-London-LondonUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F6A1EC55DB3CD83957AE6F4B9836D82D /* TSBLocalNetwork-UI-TSBLocalNetworkUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "TSBLocalNetwork-UI-TSBLocalNetworkUITests-frameworks.sh"; sourceTree = "<group>"; };
+		F7F16BD8097205920A22A111D5217A90 /* TSBLocalModel.unit-tsblocalmodeltests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "TSBLocalModel.unit-tsblocalmodeltests.xcconfig"; sourceTree = "<group>"; };
+		F843586E3DEF6AAA3C74DD3A9B4CF3D2 /* TSBLocalNetwork.unit-tsblocalnetworktests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "TSBLocalNetwork.unit-tsblocalnetworktests.xcconfig"; sourceTree = "<group>"; };
+		FE8FB88143A74F3ADFC9409FC7E466F9 /* TSBLocalNetworkUITests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TSBLocalNetworkUITests.swift; path = TSBLocalNetworkUITests/TSBLocalNetworkUITests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		24DBFC998A7A70D0EA93266CA7B84AEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CC2F2F8B2613F361AF72A313F388794 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3A925EA4476BC6C2D73452F284E4F2EA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -154,19 +244,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7C571A35192AD61BDD0918BB266028D9 /* Frameworks */ = {
+		854D725C8050EA7BDC6759B9127A0CF1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0108AA736646129A1F86870C408E1A01 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7CB094D6DF77111C6E2EB88FAB4BB4D2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FAA639A3B08B654EDEF8563DCC749188 /* Foundation.framework in Frameworks */,
+				6ED59A7D642E71ECA60752384E941B4D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,6 +261,41 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8A3BA22D9948DF4E0117B47A11A3B5AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBFC12A925C212AE9C5FE377797A7E0E /* Foundation.framework in Frameworks */,
+				62CD0DE16225E0815CC0336AE5F27567 /* TSBLocalNetwork.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8299C02456BDF840A4AA73BDB23FA3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C219A5A68EE04376B6B9798B048600D4 /* Foundation.framework in Frameworks */,
+				818EA6C4EC1080EBFDD423861B885C3D /* TSBLocalModel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B12A875919F227E988A1F9EF34ED98A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A4F61AB2C3C2B28C72798D58DCD885 /* Foundation.framework in Frameworks */,
+				E12A00C1DB67CAA40F62E933A198DBD4 /* TSBLocalModel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B45E00BEB1D5E4FDAF2C747470A2C40E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CFEAF7C781F95064BF57142D8A8DCBA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CB177EBA9FC09FC195A52FAD3561A18C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -187,45 +304,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E53997FBEAF9168A3078218D14C6C2BE /* Frameworks */ = {
+		D104E3738461373D4B9842833D6F3553 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6EE2611B6CAB362454CCC4C648DD7A95 /* Foundation.framework in Frameworks */,
+				B369C13C05F0C00C49C232098B3A743E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		020F187DE6ECFA4FDDF5364B4D4A61BB /* TSBLocalNetwork */ = {
+		098E57E3CF1557838ADB99B4562A871A /* AppHost-TSBLocalNetwork-UI-Tests */ = {
 			isa = PBXGroup;
 			children = (
-				E18D5AF103B41EFD258C28C3D206C8CE /* TSBLocalNetworkReplaceMe.swift */,
-				8CD1B4202781336D69EABC632A451CE6 /* AppHost-TSBLocalNetwork-UI-Tests */,
-				04598311AD640FF5A41C7F0DADF2725F /* Pod */,
-				4D6610D4297E1742642D2B824EEFC2BF /* Support Files */,
-				035A063FB60D667AE1C271AF70264E33 /* TSBLocalNetworkTests */,
-				175CAE41F0D1246583F154EA1D19AB5B /* TSBLocalNetworkUITests */,
+				3736BC60BC5022902D973DF90CE8D26D /* AppHost-TSBLocalNetwork-UI-Tests-Info.plist */,
+				46BEDC4430C9F051832B00C72BA6CBA8 /* LaunchScreen.storyboard */,
+				C676312736CBDAC209F5F0E144E19331 /* main.m */,
 			);
-			name = TSBLocalNetwork;
-			path = ../TSBLocalNetwork;
-			sourceTree = "<group>";
-		};
-		035A063FB60D667AE1C271AF70264E33 /* TSBLocalNetworkTests */ = {
-			isa = PBXGroup;
-			children = (
-				6105636E73232FB3996FB31F0EFB0B48 /* TSBLocalNetworkTests.swift */,
-			);
-			name = TSBLocalNetworkTests;
-			sourceTree = "<group>";
-		};
-		04598311AD640FF5A41C7F0DADF2725F /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				11D7FBFDD12DC9FAE44C65756315D405 /* TSBLocalNetwork.podspec */,
-			);
-			name = Pod;
+			name = "AppHost-TSBLocalNetwork-UI-Tests";
 			sourceTree = "<group>";
 		};
 		0D39A214895EB10F192570F2ACDC007D /* Targets Support Files */ = {
@@ -238,60 +335,132 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		0FA1E5C1B94DA739C3559CFB653B20EE /* Development Pods */ = {
+		1579461E475BE6FD6F63343F59E63247 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				020F187DE6ECFA4FDDF5364B4D4A61BB /* TSBLocalNetwork */,
+				ADD563DE8844A8D4E942FCE1DA67CF0C /* TSBLocalModel.modulemap */,
+				D05F5B1477A5FE1C36921138B615DA9D /* TSBLocalModel.xcconfig */,
+				0A2A564ECC4FE5D88A7D36E3DA7221EE /* TSBLocalModel-dummy.m */,
+				360D973F0983E840F5ED33AE3941CD66 /* TSBLocalModel-Info.plist */,
+				7FABD3F81D5091A230F13579FF99C25A /* TSBLocalModel-prefix.pch */,
+				74F3B95ABDE8CBD1CCABBA3711E78672 /* TSBLocalModel-UI-TSBLocalModelUITests-frameworks.sh */,
+				66C346EF485E92CC53F643B3CFA62F48 /* TSBLocalModel-UI-TSBLocalModelUITests-Info.plist */,
+				F44309752604D87FE3EB8AEFCC4A1F8A /* TSBLocalModel-UI-TSBLocalModelUITests-prefix.pch */,
+				C66D26C45020ED41A98849A7220BB897 /* TSBLocalModel-umbrella.h */,
+				7E1D2AC87A0FEBD93A0EED9065371E16 /* TSBLocalModel-Unit-TSBLocalModelTests-frameworks.sh */,
+				92C85746D9026DB1B5DDB273AAFA37AF /* TSBLocalModel-Unit-TSBLocalModelTests-Info.plist */,
+				E91D9C712D1DB55768A9538032ECB6C2 /* TSBLocalModel-Unit-TSBLocalModelTests-prefix.pch */,
+				6040429AE2689662A7C9AAD27C85EB06 /* TSBLocalModel.ui-tsblocalmodeluitests.xcconfig */,
+				F7F16BD8097205920A22A111D5217A90 /* TSBLocalModel.unit-tsblocalmodeltests.xcconfig */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "../Pods/Target Support Files/TSBLocalModel";
 			sourceTree = "<group>";
 		};
-		175CAE41F0D1246583F154EA1D19AB5B /* TSBLocalNetworkUITests */ = {
+		1AB01B71E1AB75FA388E00D8921C4B25 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C17D57672FFE7A58755D27E64A3E1584 /* TSBLocalNetworkUITests.swift */,
+				EF0EA1EC69EE34B7369627F15437DF88 /* TSBLocalModel.framework */,
+				68A7F4D4E90CB0521ACF81AA7EF03F37 /* TSBLocalNetwork.framework */,
+				C8024832B887FE07813130FB1367BFD7 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1C8E837CEE8FD6CE054E87D3C9CCF9C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61AF054D00EF1D0B04B666B4C475EA24 /* AppHost-TSBLocalModel-UI-Tests.app */,
+				F322050F0CFD6813FB27D6F746C7FBEC /* AppHost-TSBLocalNetwork-UI-Tests.app */,
+				ABD919F535867313775459480BC6D3B7 /* Pods_London.framework */,
+				26F86738C05338BC1A6847E750D53B67 /* Pods_London_LondonUITests.framework */,
+				325DC3C3136BEA11E0C59BEEE032FFCD /* Pods_LondonTests.framework */,
+				85E7D63B176CC3909FCC29AAD3DF7B61 /* TSBLocalModel.framework */,
+				586A860F889B79BDE2B14A3D72B91F36 /* TSBLocalModel-UI-TSBLocalModelUITests */,
+				C375BBB76D4AE57B9203B7F356627462 /* TSBLocalModel-Unit-TSBLocalModelTests */,
+				EDB65957E1C91C9854F7ED7760A0EA28 /* TSBLocalNetwork.framework */,
+				D1C63DBBFF06C3D01A074C2D1B92233E /* TSBLocalNetwork-UI-TSBLocalNetworkUITests */,
+				19CC8FA2B67F7FB206296351FD85B6DF /* TSBLocalNetwork-Unit-TSBLocalNetworkTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28212B8E4DE24E979BE4408746DD833E /* TSBLocalModelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D41000CC842E7069B534E1F5E693777C /* TSBLocalModelUITests.swift */,
+			);
+			name = TSBLocalModelUITests;
+			sourceTree = "<group>";
+		};
+		2A54CAF016BF01CB1031DCE6F2DD6200 /* TSBLocalNetworkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FE8FB88143A74F3ADFC9409FC7E466F9 /* TSBLocalNetworkUITests.swift */,
 			);
 			name = TSBLocalNetworkUITests;
 			sourceTree = "<group>";
 		};
-		4D6610D4297E1742642D2B824EEFC2BF /* Support Files */ = {
+		6DDA991CD736A04214E723EAEEE39F23 /* TSBLocalModel */ = {
 			isa = PBXGroup;
 			children = (
-				3885DA1F2BC5CAB298A81DF69EA8716E /* TSBLocalNetwork.modulemap */,
-				0135F3A01E88EC53F3F3F537C6E4757C /* TSBLocalNetwork.xcconfig */,
-				A958C6FD614AC3DD1B0C52E116481661 /* TSBLocalNetwork-dummy.m */,
-				CCAA7943065AFD49612A405A16E007F7 /* TSBLocalNetwork-Info.plist */,
-				4C52F59628704492CABF30535F197AE1 /* TSBLocalNetwork-prefix.pch */,
-				6B188F5D6177A8124398FE19F24BBCE3 /* TSBLocalNetwork-UI-TSBLocalNetworkUITests-frameworks.sh */,
-				A8C2FF02512F36A6F389773D3CF80BA6 /* TSBLocalNetwork-UI-TSBLocalNetworkUITests-Info.plist */,
-				731622CBADB89BD26347BA0908C2E705 /* TSBLocalNetwork-UI-TSBLocalNetworkUITests-prefix.pch */,
-				99DC374B14AA43C85F810BF00EAF67C9 /* TSBLocalNetwork-umbrella.h */,
-				20966C4D807B4B4E82C364E6CFAF0B80 /* TSBLocalNetwork-Unit-TSBLocalNetworkTests-frameworks.sh */,
-				21E8685777AFB5EAC94345DDF45A0C01 /* TSBLocalNetwork-Unit-TSBLocalNetworkTests-Info.plist */,
-				8DF0337D873A7E046C52BC63614D9214 /* TSBLocalNetwork-Unit-TSBLocalNetworkTests-prefix.pch */,
-				AEC6D710A692D0F1F3DDB34EB50183AC /* TSBLocalNetwork.ui-tsblocalnetworkuitests.xcconfig */,
-				B2202C63249CF377FD87A95A8E5F78A2 /* TSBLocalNetwork.unit-tsblocalnetworktests.xcconfig */,
+				8EC8B91DD624A8C3E7792003D3EB683D /* TSBLocalNetworkReplaceMe.swift */,
+				728DF12F99F60B5418E6C291DAB94530 /* AppHost-TSBLocalModel-UI-Tests */,
+				BF8F4EA50F7A68CDE37E69D28232A758 /* Pod */,
+				1579461E475BE6FD6F63343F59E63247 /* Support Files */,
+				FD00D12038EC08BB21F9F0EE0771703E /* TSBLocalModelTests */,
+				28212B8E4DE24E979BE4408746DD833E /* TSBLocalModelUITests */,
+			);
+			name = TSBLocalModel;
+			path = ../TSBLocalModel;
+			sourceTree = "<group>";
+		};
+		726988EAB16B818939B145CBA15854E6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				543291CCB000D9A35682495A2541CADB /* TSBLocalNetwork.modulemap */,
+				6CDA0E71B48CCFCB6A2B9E1BCBA9C2CC /* TSBLocalNetwork.xcconfig */,
+				20EC995AB02FF79CDA54D6F6B14F87DC /* TSBLocalNetwork-dummy.m */,
+				61F0CC79FBE885421D9191B9C51620A3 /* TSBLocalNetwork-Info.plist */,
+				2B98BC93FD4611C7899E081EE729AFA4 /* TSBLocalNetwork-prefix.pch */,
+				F6A1EC55DB3CD83957AE6F4B9836D82D /* TSBLocalNetwork-UI-TSBLocalNetworkUITests-frameworks.sh */,
+				27ABD0C3243CDB0503C89DF4363673BE /* TSBLocalNetwork-UI-TSBLocalNetworkUITests-Info.plist */,
+				A672874CC18A271B908E4AA5B9448F03 /* TSBLocalNetwork-UI-TSBLocalNetworkUITests-prefix.pch */,
+				EE96CAE983B9B31A021739ACB6699895 /* TSBLocalNetwork-umbrella.h */,
+				6935871BF2068E0560D860666CB5F910 /* TSBLocalNetwork-Unit-TSBLocalNetworkTests-frameworks.sh */,
+				7805E1DEEA9631F3D80722C93B0D4E20 /* TSBLocalNetwork-Unit-TSBLocalNetworkTests-Info.plist */,
+				30B38013BB6E1A1925849AF87633CC6A /* TSBLocalNetwork-Unit-TSBLocalNetworkTests-prefix.pch */,
+				88FC509745F8B1766763CA14314F8B6A /* TSBLocalNetwork.ui-tsblocalnetworkuitests.xcconfig */,
+				F843586E3DEF6AAA3C74DD3A9B4CF3D2 /* TSBLocalNetwork.unit-tsblocalnetworktests.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Pods/Target Support Files/TSBLocalNetwork";
 			sourceTree = "<group>";
 		};
-		74A8A4A7EA61F56F3F28BDB61E390AA1 /* iOS */ = {
+		728DF12F99F60B5418E6C291DAB94530 /* AppHost-TSBLocalModel-UI-Tests */ = {
 			isa = PBXGroup;
 			children = (
-				0B1617B8B4D99D4BD3CF1EF9EAD021F7 /* Foundation.framework */,
+				934C1A91785D5AED84E111025B6D6D44 /* AppHost-TSBLocalModel-UI-Tests-Info.plist */,
+				89E3A31A6E9984CE2E5E99DE757F1198 /* LaunchScreen.storyboard */,
+				D06499481D9359525DF8F17CB263A18A /* main.m */,
 			);
-			name = iOS;
+			name = "AppHost-TSBLocalModel-UI-Tests";
 			sourceTree = "<group>";
 		};
-		8CD1B4202781336D69EABC632A451CE6 /* AppHost-TSBLocalNetwork-UI-Tests */ = {
+		8292FB3577E24FC9491E3AAC480381F0 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				0EAC89E3C2B54CE24E0F0395A64EB677 /* AppHost-TSBLocalNetwork-UI-Tests-Info.plist */,
-				6020F4D2BFFE8021388AF7DDCD1BB6C0 /* LaunchScreen.storyboard */,
-				413803ED0EECBC743457C86A3EAA8D30 /* main.m */,
+				11D37EC112FFEC6898521270882815DF /* TSBLocalNetwork.podspec */,
 			);
-			name = "AppHost-TSBLocalNetwork-UI-Tests";
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		8A9D2433D1A234FD99A091A41E3DC89C /* TSBLocalNetworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				68B5766E5DA7A41652D5346BFDFE5DEB /* TSBLocalNetworkTests.swift */,
+			);
+			name = TSBLocalNetworkTests;
 			sourceTree = "<group>";
 		};
 		9FDDEF00A9D0AECA4F957EF87BA71103 /* Pods-London */ = {
@@ -311,29 +480,54 @@
 			path = "Target Support Files/Pods-London";
 			sourceTree = "<group>";
 		};
-		AF1529CD04A9B02950671E65A5058442 /* Products */ = {
+		BF8F4EA50F7A68CDE37E69D28232A758 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				F322050F0CFD6813FB27D6F746C7FBEC /* AppHost-TSBLocalNetwork-UI-Tests.app */,
-				ABD919F535867313775459480BC6D3B7 /* Pods_London.framework */,
-				26F86738C05338BC1A6847E750D53B67 /* Pods_London_LondonUITests.framework */,
-				325DC3C3136BEA11E0C59BEEE032FFCD /* Pods_LondonTests.framework */,
-				EDB65957E1C91C9854F7ED7760A0EA28 /* TSBLocalNetwork.framework */,
-				D1C63DBBFF06C3D01A074C2D1B92233E /* TSBLocalNetwork-UI-TSBLocalNetworkUITests */,
-				19CC8FA2B67F7FB206296351FD85B6DF /* TSBLocalNetwork-Unit-TSBLocalNetworkTests */,
+				DDDBD825FCC23C159A7DBDC9DDFC511E /* TSBLocalModel.podspec */,
 			);
-			name = Products;
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C8024832B887FE07813130FB1367BFD7 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				99F4751267D64338A33587E10BB1C8AF /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CCF6FA004ED2477690A41BC8BFBA5EC7 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6DDA991CD736A04214E723EAEEE39F23 /* TSBLocalModel */,
+				D406CB3424A60052E9B9666504B29C2C /* TSBLocalNetwork */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				0FA1E5C1B94DA739C3559CFB653B20EE /* Development Pods */,
-				FC452133FADCD15AE6AD3E280D364E7E /* Frameworks */,
-				AF1529CD04A9B02950671E65A5058442 /* Products */,
+				CCF6FA004ED2477690A41BC8BFBA5EC7 /* Development Pods */,
+				1AB01B71E1AB75FA388E00D8921C4B25 /* Frameworks */,
+				1C8E837CEE8FD6CE054E87D3C9CCF9C8 /* Products */,
 				0D39A214895EB10F192570F2ACDC007D /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D406CB3424A60052E9B9666504B29C2C /* TSBLocalNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				2F2B3D02E9ECD156ACDE6D8FE03EDDF0 /* TSBLocalNetworkReplaceMe.swift */,
+				098E57E3CF1557838ADB99B4562A871A /* AppHost-TSBLocalNetwork-UI-Tests */,
+				8292FB3577E24FC9491E3AAC480381F0 /* Pod */,
+				726988EAB16B818939B145CBA15854E6 /* Support Files */,
+				8A9D2433D1A234FD99A091A41E3DC89C /* TSBLocalNetworkTests */,
+				2A54CAF016BF01CB1031DCE6F2DD6200 /* TSBLocalNetworkUITests */,
+			);
+			name = TSBLocalNetwork;
+			path = ../TSBLocalNetwork;
 			sourceTree = "<group>";
 		};
 		ECE3D560791591E9987BEF46E2EC1A74 /* Pods-London-LondonUITests */ = {
@@ -369,39 +563,46 @@
 			path = "Target Support Files/Pods-LondonTests";
 			sourceTree = "<group>";
 		};
-		FC452133FADCD15AE6AD3E280D364E7E /* Frameworks */ = {
+		FD00D12038EC08BB21F9F0EE0771703E /* TSBLocalModelTests */ = {
 			isa = PBXGroup;
 			children = (
-				52DD550875A448A9AF58CFAFE72D6BA3 /* TSBLocalNetwork.framework */,
-				74A8A4A7EA61F56F3F28BDB61E390AA1 /* iOS */,
+				5CB43C3FBAFE1C34F8BBFB456E45DA20 /* TSBLocalModelTests.swift */,
 			);
-			name = Frameworks;
+			name = TSBLocalModelTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		181DC8BAEDCF5B7D248F3A63DA0D6D62 /* Headers */ = {
+		10BC343B11575AF63D3D897E080D5BA3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30B506329C69D20E9D6B4C991B811089 /* Pods-London-LondonUITests-umbrella.h in Headers */,
+				FFDE5417B75AF766C0CD5482CD0A595D /* Pods-London-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		77EB73A4136DA6EFCB06F6DA9D8B970D /* Headers */ = {
+		5B27AC59240E6CF79CAECE3F33BD01C5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25F6348C869FD71206637349DE6D9117 /* Pods-London-umbrella.h in Headers */,
+				65074D23C99C8C6473DF2A025404F1EB /* Pods-London-LondonUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CBE986E8E81A481E92E3FA4679CEA4C6 /* Headers */ = {
+		ABC317FCC266E56BF2AD7FD4DB5138A2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19E5E95D30915BD84B09F0011159AF25 /* TSBLocalNetwork-umbrella.h in Headers */,
+				C6189CE1CC845E04E075B9F94AD439C8 /* TSBLocalModel-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB3C725DC1387061E99580811A4866D4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				209F661D7A8EE5FBE8A7C3448E1D1DD3 /* TSBLocalNetwork-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +617,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		28D26BF0D3053C4D13B669BD465F10DF /* AppHost-TSBLocalModel-UI-Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A114BAC8F0C1D5DBE3C81788E348725C /* Build configuration list for PBXNativeTarget "AppHost-TSBLocalModel-UI-Tests" */;
+			buildPhases = (
+				C13DCFDDA1562F300BEA3E8A8F47F5EC /* Sources */,
+				24DBFC998A7A70D0EA93266CA7B84AEC /* Frameworks */,
+				F0DF91AEE9009A8ACFD915A9DECCA4EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AppHost-TSBLocalModel-UI-Tests";
+			productName = "AppHost-TSBLocalModel-UI-Tests";
+			productReference = 61AF054D00EF1D0B04B666B4C475EA24 /* AppHost-TSBLocalModel-UI-Tests.app */;
+			productType = "com.apple.product-type.application";
+		};
 		354D6F3A0588A52118A62B7B4E0F35F1 /* Pods-LondonTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8BE30931513DC88CC5BBD77C47F98747 /* Build configuration list for PBXNativeTarget "Pods-LondonTests" */;
@@ -437,12 +655,12 @@
 		};
 		4517C44D9E5015C52FBCF981EB370C88 /* TSBLocalNetwork */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0D84CC895A9FF5692BB1D45BEA6A8DE0 /* Build configuration list for PBXNativeTarget "TSBLocalNetwork" */;
+			buildConfigurationList = C2FEC1FBF4388A5D313219120DCF91A5 /* Build configuration list for PBXNativeTarget "TSBLocalNetwork" */;
 			buildPhases = (
-				CBE986E8E81A481E92E3FA4679CEA4C6 /* Headers */,
-				B88668CDEE175C6D3B1CAC61F2478E9D /* Sources */,
-				E53997FBEAF9168A3078218D14C6C2BE /* Frameworks */,
-				1D5D7734DDF872D34A6DA1DDCDACED68 /* Resources */,
+				BB3C725DC1387061E99580811A4866D4 /* Headers */,
+				9E1D03CF98B8C9324056F9691CAA9F8E /* Sources */,
+				D104E3738461373D4B9842833D6F3553 /* Frameworks */,
+				8F4DB7CE4B2AB9EDCA8120782AEE20D9 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -452,6 +670,26 @@
 			productName = TSBLocalNetwork;
 			productReference = EDB65957E1C91C9854F7ED7760A0EA28 /* TSBLocalNetwork.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		4F0C015EADB4AF1C35B3B27D2D5023B4 /* TSBLocalModel-UI-TSBLocalModelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78998EC54A1420DBAF06C428D5AFD367 /* Build configuration list for PBXNativeTarget "TSBLocalModel-UI-TSBLocalModelUITests" */;
+			buildPhases = (
+				2B61D44118DC90E5A9A6AF94BA860C13 /* Sources */,
+				A8299C02456BDF840A4AA73BDB23FA3A /* Frameworks */,
+				2FFDE5ED46DE95B09F1C57E1C5263D6E /* Resources */,
+				DAFB158CE339FC0167FE617D2415BC7D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A57DE3690949DF92907AE6638DDE350B /* PBXTargetDependency */,
+				82CE7DEBDCBD0B7303E0F47E2F09ADA4 /* PBXTargetDependency */,
+			);
+			name = "TSBLocalModel-UI-TSBLocalModelUITests";
+			productName = "TSBLocalModel-UI-TSBLocalModelUITests";
+			productReference = 586A860F889B79BDE2B14A3D72B91F36 /* TSBLocalModel-UI-TSBLocalModelUITests */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 		60F2551258A2EE95A6EEBFCECD2936E6 /* TSBLocalNetwork-Unit-TSBLocalNetworkTests */ = {
 			isa = PBXNativeTarget;
@@ -474,22 +712,42 @@
 		};
 		63600C5540FC341A49F5AB64BBCEEEA1 /* Pods-London */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F17852DDC93EC3C4A5F91FD77D3AD09F /* Build configuration list for PBXNativeTarget "Pods-London" */;
+			buildConfigurationList = 2781EFED5F4B6E4FA3CBA2FCF0414E12 /* Build configuration list for PBXNativeTarget "Pods-London" */;
 			buildPhases = (
-				77EB73A4136DA6EFCB06F6DA9D8B970D /* Headers */,
-				C0AA0580EEBB1A150FB5BB7DD73E5F02 /* Sources */,
-				7CB094D6DF77111C6E2EB88FAB4BB4D2 /* Frameworks */,
-				3E95FD2F61447C9B51998843870434E6 /* Resources */,
+				10BC343B11575AF63D3D897E080D5BA3 /* Headers */,
+				E5DA66532D4D2ED75ABB3E44D0B3C787 /* Sources */,
+				854D725C8050EA7BDC6759B9127A0CF1 /* Frameworks */,
+				448207E6FE28E73C4647482AD0C25048 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				91F02FFF023A89C6814ECC79B3159122 /* PBXTargetDependency */,
+				FDFF4C585AB1FEDAE8BEF6F811414C77 /* PBXTargetDependency */,
+				80B29C698D4DD75BBC61B32C281463A2 /* PBXTargetDependency */,
 			);
 			name = "Pods-London";
 			productName = "Pods-London";
 			productReference = ABD919F535867313775459480BC6D3B7 /* Pods_London.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		68346A0F37F4E18262D4892644B3C001 /* TSBLocalModel-Unit-TSBLocalModelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFE75CE8B9694F6FC7FB76A1346D6167 /* Build configuration list for PBXNativeTarget "TSBLocalModel-Unit-TSBLocalModelTests" */;
+			buildPhases = (
+				82FDA60AC56C80B10CFDD76EB721CD27 /* Sources */,
+				B12A875919F227E988A1F9EF34ED98A2 /* Frameworks */,
+				4D43F828165AEBB2F3696013353BF7D4 /* Resources */,
+				0D1EABB4BD0F13E9E9DFF73B054D95DF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				060829C1708425C1A4A32F77224CC46E /* PBXTargetDependency */,
+			);
+			name = "TSBLocalModel-Unit-TSBLocalModelTests";
+			productName = "TSBLocalModel-Unit-TSBLocalModelTests";
+			productReference = C375BBB76D4AE57B9203B7F356627462 /* TSBLocalModel-Unit-TSBLocalModelTests */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		7429F0215F54432C66A3736F1577ACB0 /* TSBLocalNetwork-UI-TSBLocalNetworkUITests */ = {
 			isa = PBXNativeTarget;
@@ -528,19 +786,39 @@
 			productReference = F322050F0CFD6813FB27D6F746C7FBEC /* AppHost-TSBLocalNetwork-UI-Tests.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F4FBDECC3058B45020BFA194CEF4C005 /* Pods-London-LondonUITests */ = {
+		A8C25EF6632FCFB37BC378DEF9913273 /* TSBLocalModel */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7C82F2D9E952ED19D1D1EE2BD8749D5C /* Build configuration list for PBXNativeTarget "Pods-London-LondonUITests" */;
+			buildConfigurationList = 6E7D8F7E137665CBCF9508BB5D4B1523 /* Build configuration list for PBXNativeTarget "TSBLocalModel" */;
 			buildPhases = (
-				181DC8BAEDCF5B7D248F3A63DA0D6D62 /* Headers */,
-				030DED29A1E4A3085950ED4C3801A58D /* Sources */,
-				7C571A35192AD61BDD0918BB266028D9 /* Frameworks */,
-				69AA562737F715858A4EAA8F3B192420 /* Resources */,
+				ABC317FCC266E56BF2AD7FD4DB5138A2 /* Headers */,
+				0EB3115A8E1CF307140EA9BC87035A65 /* Sources */,
+				8A3BA22D9948DF4E0117B47A11A3B5AF /* Frameworks */,
+				C0AE535FBFF115AA2AD54FC1E24E4C18 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				57EBED7F04C6983292EEDA775B9D0309 /* PBXTargetDependency */,
+				CB3D862183E9918D03A7055230A3CDAB /* PBXTargetDependency */,
+			);
+			name = TSBLocalModel;
+			productName = TSBLocalModel;
+			productReference = 85E7D63B176CC3909FCC29AAD3DF7B61 /* TSBLocalModel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F4FBDECC3058B45020BFA194CEF4C005 /* Pods-London-LondonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFE5A2453D298702FE9BCE2882EDAB5A /* Build configuration list for PBXNativeTarget "Pods-London-LondonUITests" */;
+			buildPhases = (
+				5B27AC59240E6CF79CAECE3F33BD01C5 /* Headers */,
+				2770F544D62CA7E6F5320573C277AB12 /* Sources */,
+				B45E00BEB1D5E4FDAF2C747470A2C40E /* Frameworks */,
+				31F2491D5B1952321CF7C5C1C0529363 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B27E4E5342D3B05273915DF978CDD897 /* PBXTargetDependency */,
+				942CDCF36534272271A06811136022A4 /* PBXTargetDependency */,
 			);
 			name = "Pods-London-LondonUITests";
 			productName = "Pods-London-LondonUITests";
@@ -556,6 +834,9 @@
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
 				TargetAttributes = {
+					4F0C015EADB4AF1C35B3B27D2D5023B4 = {
+						TestTargetID = 28D26BF0D3053C4D13B669BD465F10DF;
+					};
 					7429F0215F54432C66A3736F1577ACB0 = {
 						TestTargetID = 7A4B860B0ABC12AA577499E9C0D4FB88;
 					};
@@ -570,14 +851,18 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = AF1529CD04A9B02950671E65A5058442 /* Products */;
+			productRefGroup = 1C8E837CEE8FD6CE054E87D3C9CCF9C8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				28D26BF0D3053C4D13B669BD465F10DF /* AppHost-TSBLocalModel-UI-Tests */,
 				7A4B860B0ABC12AA577499E9C0D4FB88 /* AppHost-TSBLocalNetwork-UI-Tests */,
 				63600C5540FC341A49F5AB64BBCEEEA1 /* Pods-London */,
 				F4FBDECC3058B45020BFA194CEF4C005 /* Pods-London-LondonUITests */,
 				354D6F3A0588A52118A62B7B4E0F35F1 /* Pods-LondonTests */,
+				A8C25EF6632FCFB37BC378DEF9913273 /* TSBLocalModel */,
+				4F0C015EADB4AF1C35B3B27D2D5023B4 /* TSBLocalModel-UI-TSBLocalModelUITests */,
+				68346A0F37F4E18262D4892644B3C001 /* TSBLocalModel-Unit-TSBLocalModelTests */,
 				4517C44D9E5015C52FBCF981EB370C88 /* TSBLocalNetwork */,
 				7429F0215F54432C66A3736F1577ACB0 /* TSBLocalNetwork-UI-TSBLocalNetworkUITests */,
 				60F2551258A2EE95A6EEBFCECD2936E6 /* TSBLocalNetwork-Unit-TSBLocalNetworkTests */,
@@ -586,14 +871,28 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1D5D7734DDF872D34A6DA1DDCDACED68 /* Resources */ = {
+		2FFDE5ED46DE95B09F1C57E1C5263D6E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3E95FD2F61447C9B51998843870434E6 /* Resources */ = {
+		31F2491D5B1952321CF7C5C1C0529363 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		448207E6FE28E73C4647482AD0C25048 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D43F828165AEBB2F3696013353BF7D4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -601,13 +900,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		65F2918E0DA53A16A8A6E8CBE0B55861 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		69AA562737F715858A4EAA8F3B192420 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -622,10 +914,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8F4DB7CE4B2AB9EDCA8120782AEE20D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0AE535FBFF115AA2AD54FC1E24E4C18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E94FFBE0D6CA45C511FBB19D4ECD8D85 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0DF91AEE9009A8ACFD915A9DECCA4EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57D517F71679369A562CA739A26A06B0 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -639,6 +953,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0D1EABB4BD0F13E9E9DFF73B054D95DF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/TSBLocalModel/TSBLocalModel-Unit-TSBLocalModelTests-frameworks-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/TSBLocalModel/TSBLocalModel-Unit-TSBLocalModelTests-frameworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/TSBLocalModel/TSBLocalModel-Unit-TSBLocalModelTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		34EF232E9E6C976D4CDD1B9AAF4A6F22 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -673,14 +1004,48 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/TSBLocalNetwork/TSBLocalNetwork-UI-TSBLocalNetworkUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		DAFB158CE339FC0167FE617D2415BC7D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/TSBLocalModel/TSBLocalModel-UI-TSBLocalModelUITests-frameworks-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/TSBLocalModel/TSBLocalModel-UI-TSBLocalModelUITests-frameworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/TSBLocalModel/TSBLocalModel-UI-TSBLocalModelUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		030DED29A1E4A3085950ED4C3801A58D /* Sources */ = {
+		0EB3115A8E1CF307140EA9BC87035A65 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				734D21B72A2BE7935D4D599B75BAB489 /* Pods-London-LondonUITests-dummy.m in Sources */,
+				6FCCEEEA870F282AD54F6532122B26B1 /* TSBLocalModel-dummy.m in Sources */,
+				D3D71558A9B5E22689786A2F16AE0A92 /* TSBLocalNetworkReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2770F544D62CA7E6F5320573C277AB12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFD53DD956226E20DB66C376E3D6765E /* Pods-London-LondonUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B61D44118DC90E5A9A6AF94BA860C13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC68C0FC364E40BD35E33454515B6014 /* TSBLocalModelUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -700,6 +1065,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		82FDA60AC56C80B10CFDD76EB721CD27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F1DB3ECBCBE37EC10B3AA5999EA4015 /* TSBLocalModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E1D03CF98B8C9324056F9691CAA9F8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA9D115C527495B375464B6A1FED46FA /* TSBLocalNetwork-dummy.m in Sources */,
+				96DD464D91477BE7E91CFFE6ECB57173 /* TSBLocalNetworkReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B2BB7CE146F723EA9F1A2A30441D2E1A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -708,20 +1090,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B88668CDEE175C6D3B1CAC61F2478E9D /* Sources */ = {
+		C13DCFDDA1562F300BEA3E8A8F47F5EC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9DCC593A3E29293CEF8A2D4F169AC0D /* TSBLocalNetwork-dummy.m in Sources */,
-				2B573841484F483A472F06B228AF5CB6 /* TSBLocalNetworkReplaceMe.swift in Sources */,
+				1F2F300A8169AEC5590B0D6E30EFCA64 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C0AA0580EEBB1A150FB5BB7DD73E5F02 /* Sources */ = {
+		E5DA66532D4D2ED75ABB3E44D0B3C787 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E130BACDD2F8B506A669F0516905EF76 /* Pods-London-dummy.m in Sources */,
+				13B80FC582EB91F23CC4CCCF59CDBDE8 /* Pods-London-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -742,17 +1123,17 @@
 			target = 63600C5540FC341A49F5AB64BBCEEEA1 /* Pods-London */;
 			targetProxy = F9FC43887460C62C015476D4C24AAB15 /* PBXContainerItemProxy */;
 		};
+		060829C1708425C1A4A32F77224CC46E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TSBLocalModel;
+			target = A8C25EF6632FCFB37BC378DEF9913273 /* TSBLocalModel */;
+			targetProxy = 803A37D9BD5332DB4A3BBCC7BBE69F24 /* PBXContainerItemProxy */;
+		};
 		23744BCB5806F78DFD615DF4A883CCB6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TSBLocalNetwork;
 			target = 4517C44D9E5015C52FBCF981EB370C88 /* TSBLocalNetwork */;
 			targetProxy = 571E82AB5E852FE2A4261DAB76A29AF7 /* PBXContainerItemProxy */;
-		};
-		57EBED7F04C6983292EEDA775B9D0309 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = TSBLocalNetwork;
-			target = 4517C44D9E5015C52FBCF981EB370C88 /* TSBLocalNetwork */;
-			targetProxy = 244A2027F25D85065ACD497ABD8AD2D3 /* PBXContainerItemProxy */;
 		};
 		7B97427CD6831D5511434755E8B27271 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -760,21 +1141,93 @@
 			target = 4517C44D9E5015C52FBCF981EB370C88 /* TSBLocalNetwork */;
 			targetProxy = 32B892511872A1A78A94B46B1515C9BA /* PBXContainerItemProxy */;
 		};
+		80B29C698D4DD75BBC61B32C281463A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TSBLocalNetwork;
+			target = 4517C44D9E5015C52FBCF981EB370C88 /* TSBLocalNetwork */;
+			targetProxy = 5F64501C8B12AB991073FEC593A15B30 /* PBXContainerItemProxy */;
+		};
+		82CE7DEBDCBD0B7303E0F47E2F09ADA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TSBLocalModel;
+			target = A8C25EF6632FCFB37BC378DEF9913273 /* TSBLocalModel */;
+			targetProxy = A7D54E8919928FF343922FB377BF092B /* PBXContainerItemProxy */;
+		};
 		8E084C83682165FDDF3E84A63F2679F8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "AppHost-TSBLocalNetwork-UI-Tests";
 			target = 7A4B860B0ABC12AA577499E9C0D4FB88 /* AppHost-TSBLocalNetwork-UI-Tests */;
 			targetProxy = DBD6B46792E23512FB69F250B5EEA5AA /* PBXContainerItemProxy */;
 		};
-		91F02FFF023A89C6814ECC79B3159122 /* PBXTargetDependency */ = {
+		942CDCF36534272271A06811136022A4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TSBLocalNetwork;
 			target = 4517C44D9E5015C52FBCF981EB370C88 /* TSBLocalNetwork */;
-			targetProxy = CF3C951C91B73B026CF93F14AD6FA37A /* PBXContainerItemProxy */;
+			targetProxy = A23246DA52F3A7AE9ED92E18DDCD7C79 /* PBXContainerItemProxy */;
+		};
+		A57DE3690949DF92907AE6638DDE350B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "AppHost-TSBLocalModel-UI-Tests";
+			target = 28D26BF0D3053C4D13B669BD465F10DF /* AppHost-TSBLocalModel-UI-Tests */;
+			targetProxy = 7AC4BF7E981C97F5C009835C3E781B04 /* PBXContainerItemProxy */;
+		};
+		B27E4E5342D3B05273915DF978CDD897 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TSBLocalModel;
+			target = A8C25EF6632FCFB37BC378DEF9913273 /* TSBLocalModel */;
+			targetProxy = E302E576DD574E193B456582E00E9AAA /* PBXContainerItemProxy */;
+		};
+		CB3D862183E9918D03A7055230A3CDAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TSBLocalNetwork;
+			target = 4517C44D9E5015C52FBCF981EB370C88 /* TSBLocalNetwork */;
+			targetProxy = 5123A7B28332DA3C56049DE151DD779C /* PBXContainerItemProxy */;
+		};
+		FDFF4C585AB1FEDAE8BEF6F811414C77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TSBLocalModel;
+			target = A8C25EF6632FCFB37BC378DEF9913273 /* TSBLocalModel */;
+			targetProxy = F96B65D2C0EA076CEF2B830CDE6EF59F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		0BFCAB1CC3D500D4484ABFE7ED9BA482 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D05F5B1477A5FE1C36921138B615DA9D /* TSBLocalModel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TSBLocalModel/TSBLocalModel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TSBLocalModel/TSBLocalModel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TSBLocalModel/TSBLocalModel.modulemap";
+				PRODUCT_MODULE_NAME = TSBLocalModel;
+				PRODUCT_NAME = TSBLocalModel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		139892266FF2C79FD4A3007C2BE46BEC /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9C192CFA4920C1CBFA52E7AAF3715E10 /* Pods-LondonTests.release.xcconfig */;
@@ -833,7 +1286,48 @@
 			};
 			name = Debug;
 		};
-		21BC67914727E01BCA57F42376985F54 /* Release */ = {
+		2186324B9EF326D00AF0D52EF60480C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7F16BD8097205920A22A111D5217A90 /* TSBLocalModel.unit-tsblocalmodeltests.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = YES;
+				CODE_SIGNING_REQUIRED = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/TSBLocalModel/TSBLocalModel-Unit-TSBLocalModelTests-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TSBLocalModel/TSBLocalModel-Unit-TSBLocalModelTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = "TSBLocalModel-Unit-TSBLocalModelTests";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39C55E41F60E4B3D7E02AFFC04B9A58D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = "AppHost-TSBLocalNetwork-UI-Tests/AppHost-TSBLocalNetwork-UI-Tests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "AppHost-TSBLocalNetwork-UI-Tests";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44020CCC767F38B00A8F2A56E606CAE6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F62E7597207D92FFD80D1A3A29AD8F3A /* Pods-London-LondonUITests.release.xcconfig */;
 			buildSettings = {
@@ -872,30 +1366,12 @@
 			};
 			name = Release;
 		};
-		39C55E41F60E4B3D7E02AFFC04B9A58D /* Release */ = {
+		4722647D11DB2CD5EC9C0FB092BDFD48 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70D0BAE927F85BE8E157F73FD32FBEEB /* Pods-London.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = "AppHost-TSBLocalNetwork-UI-Tests/AppHost-TSBLocalNetwork-UI-Tests-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "AppHost-TSBLocalNetwork-UI-Tests";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		4D37D596CDE9253B66FEF24F819AEDBD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0135F3A01E88EC53F3F3F537C6E4757C /* TSBLocalNetwork.xcconfig */;
-			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -905,31 +1381,58 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TSBLocalNetwork/TSBLocalNetwork-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TSBLocalNetwork/TSBLocalNetwork-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-London/Pods-London-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/TSBLocalNetwork/TSBLocalNetwork.modulemap";
-				PRODUCT_MODULE_NAME = TSBLocalNetwork;
-				PRODUCT_NAME = TSBLocalNetwork;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-London/Pods-London.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		516672F6A66D9B82F994ECDB40894478 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6040429AE2689662A7C9AAD27C85EB06 /* TSBLocalModel.ui-tsblocalmodeluitests.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = YES;
+				CODE_SIGNING_REQUIRED = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/TSBLocalModel/TSBLocalModel-UI-TSBLocalModelUITests-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TSBLocalModel/TSBLocalModel-UI-TSBLocalModelUITests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-lswiftSwiftOnoneSupport",
+				);
+				PRODUCT_NAME = "TSBLocalModel-UI-TSBLocalModelUITests";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "AppHost-TSBLocalModel-UI-Tests";
 			};
 			name = Debug;
 		};
 		56264D7EB12784726A3D1F84B8386D97 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B2202C63249CF377FD87A95A8E5F78A2 /* TSBLocalNetwork.unit-tsblocalnetworktests.xcconfig */;
+			baseConfigurationReference = F843586E3DEF6AAA3C74DD3A9B4CF3D2 /* TSBLocalNetwork.unit-tsblocalnetworktests.xcconfig */;
 			buildSettings = {
 				CODE_SIGNING_ALLOWED = YES;
 				CODE_SIGNING_REQUIRED = YES;
@@ -944,6 +1447,28 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		617F48D42D8ABF6F746C881E079BEA0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6040429AE2689662A7C9AAD27C85EB06 /* TSBLocalModel.ui-tsblocalmodeluitests.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = YES;
+				CODE_SIGNING_REQUIRED = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/TSBLocalModel/TSBLocalModel-UI-TSBLocalModelUITests-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TSBLocalModel/TSBLocalModel-UI-TSBLocalModelUITests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = "TSBLocalModel-UI-TSBLocalModelUITests";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "AppHost-TSBLocalModel-UI-Tests";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -1012,9 +1537,44 @@
 			};
 			name = Debug;
 		};
+		7D32D5FE6E31E35A4C3458FFC1CC7A12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D05F5B1477A5FE1C36921138B615DA9D /* TSBLocalModel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TSBLocalModel/TSBLocalModel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TSBLocalModel/TSBLocalModel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TSBLocalModel/TSBLocalModel.modulemap";
+				PRODUCT_MODULE_NAME = TSBLocalModel;
+				PRODUCT_NAME = TSBLocalModel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		85800909FAEA366B388505B65B79CB4F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B2202C63249CF377FD87A95A8E5F78A2 /* TSBLocalNetwork.unit-tsblocalnetworktests.xcconfig */;
+			baseConfigurationReference = F843586E3DEF6AAA3C74DD3A9B4CF3D2 /* TSBLocalNetwork.unit-tsblocalnetworktests.xcconfig */;
 			buildSettings = {
 				CODE_SIGNING_ALLOWED = YES;
 				CODE_SIGNING_REQUIRED = YES;
@@ -1074,43 +1634,44 @@
 			};
 			name = Debug;
 		};
-		94E0B75C7D769B5BA58EA490491017A0 /* Debug */ = {
+		89FD7B036673868EF0CD49B3EA3685A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 288D5BBE7A9804F7BB18B871B0450505 /* Pods-London.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-London/Pods-London-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				INFOPLIST_FILE = "AppHost-TSBLocalModel-UI-Tests/AppHost-TSBLocalModel-UI-Tests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-London/Pods-London.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "AppHost-TSBLocalModel-UI-Tests";
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		A1331694F6E0B7E4CBE8968545C1E2D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = "AppHost-TSBLocalModel-UI-Tests/AppHost-TSBLocalModel-UI-Tests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "AppHost-TSBLocalModel-UI-Tests";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
 		};
 		A27713CB74E99AF202AADC23200A32F4 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1172,9 +1733,47 @@
 			};
 			name = Release;
 		};
+		A5F1AA2A8811110BBBE2C2559B5A6F2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 288D5BBE7A9804F7BB18B871B0450505 /* Pods-London.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-London/Pods-London-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-London/Pods-London.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		B0F72B3A461AB2B647CAFB7AEC1C277C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AEC6D710A692D0F1F3DDB34EB50183AC /* TSBLocalNetwork.ui-tsblocalnetworkuitests.xcconfig */;
+			baseConfigurationReference = 88FC509745F8B1766763CA14314F8B6A /* TSBLocalNetwork.ui-tsblocalnetworkuitests.xcconfig */;
 			buildSettings = {
 				CODE_SIGNING_ALLOWED = YES;
 				CODE_SIGNING_REQUIRED = YES;
@@ -1197,7 +1796,66 @@
 			};
 			name = Debug;
 		};
-		C2571E0E67081BE0AFC17C2C039F8A96 /* Debug */ = {
+		B3853B8F47E33F63CBDC2C7C094E623B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7F16BD8097205920A22A111D5217A90 /* TSBLocalModel.unit-tsblocalmodeltests.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = YES;
+				CODE_SIGNING_REQUIRED = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/TSBLocalModel/TSBLocalModel-Unit-TSBLocalModelTests-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TSBLocalModel/TSBLocalModel-Unit-TSBLocalModelTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-lswiftSwiftOnoneSupport",
+				);
+				PRODUCT_NAME = "TSBLocalModel-Unit-TSBLocalModelTests";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BE34DA630E29BA7F69CC31CA4DE6EAE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CDA0E71B48CCFCB6A2B9E1BCBA9C2CC /* TSBLocalNetwork.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TSBLocalNetwork/TSBLocalNetwork-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TSBLocalNetwork/TSBLocalNetwork-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TSBLocalNetwork/TSBLocalNetwork.modulemap";
+				PRODUCT_MODULE_NAME = TSBLocalNetwork;
+				PRODUCT_NAME = TSBLocalNetwork;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D4609AF89B00BEE31C6BBF42A660EB85 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D7CBAB04A06F99766485BFD5CD82B9E2 /* Pods-London-LondonUITests.debug.xcconfig */;
 			buildSettings = {
@@ -1237,7 +1895,7 @@
 		};
 		D5DE1FAAE06E50BDF8B201E9A4958427 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AEC6D710A692D0F1F3DDB34EB50183AC /* TSBLocalNetwork.ui-tsblocalnetworkuitests.xcconfig */;
+			baseConfigurationReference = 88FC509745F8B1766763CA14314F8B6A /* TSBLocalNetwork.ui-tsblocalnetworkuitests.xcconfig */;
 			buildSettings = {
 				CODE_SIGNING_ALLOWED = YES;
 				CODE_SIGNING_REQUIRED = YES;
@@ -1257,48 +1915,9 @@
 			};
 			name = Release;
 		};
-		EFF8E917690301A1AAF127DE09575089 /* Release */ = {
+		F6A0FCA99A626A728EB2F99DE266A424 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 70D0BAE927F85BE8E157F73FD32FBEEB /* Pods-London.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-London/Pods-London-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-London/Pods-London.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		FC0DA1A31BB63338B7E62553FE36D311 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0135F3A01E88EC53F3F3F537C6E4757C /* TSBLocalNetwork.xcconfig */;
+			baseConfigurationReference = 6CDA0E71B48CCFCB6A2B9E1BCBA9C2CC /* TSBLocalNetwork.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1335,11 +1954,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0D84CC895A9FF5692BB1D45BEA6A8DE0 /* Build configuration list for PBXNativeTarget "TSBLocalNetwork" */ = {
+		2781EFED5F4B6E4FA3CBA2FCF0414E12 /* Build configuration list for PBXNativeTarget "Pods-London" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4D37D596CDE9253B66FEF24F819AEDBD /* Debug */,
-				FC0DA1A31BB63338B7E62553FE36D311 /* Release */,
+				A5F1AA2A8811110BBBE2C2559B5A6F2D /* Debug */,
+				4722647D11DB2CD5EC9C0FB092BDFD48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1362,11 +1981,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7C82F2D9E952ED19D1D1EE2BD8749D5C /* Build configuration list for PBXNativeTarget "Pods-London-LondonUITests" */ = {
+		6E7D8F7E137665CBCF9508BB5D4B1523 /* Build configuration list for PBXNativeTarget "TSBLocalModel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C2571E0E67081BE0AFC17C2C039F8A96 /* Debug */,
-				21BC67914727E01BCA57F42376985F54 /* Release */,
+				7D32D5FE6E31E35A4C3458FFC1CC7A12 /* Debug */,
+				0BFCAB1CC3D500D4484ABFE7ED9BA482 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78998EC54A1420DBAF06C428D5AFD367 /* Build configuration list for PBXNativeTarget "TSBLocalModel-UI-TSBLocalModelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				516672F6A66D9B82F994ECDB40894478 /* Debug */,
+				617F48D42D8ABF6F746C881E079BEA0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1389,11 +2017,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F17852DDC93EC3C4A5F91FD77D3AD09F /* Build configuration list for PBXNativeTarget "Pods-London" */ = {
+		A114BAC8F0C1D5DBE3C81788E348725C /* Build configuration list for PBXNativeTarget "AppHost-TSBLocalModel-UI-Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				94E0B75C7D769B5BA58EA490491017A0 /* Debug */,
-				EFF8E917690301A1AAF127DE09575089 /* Release */,
+				89FD7B036673868EF0CD49B3EA3685A3 /* Debug */,
+				A1331694F6E0B7E4CBE8968545C1E2D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2FEC1FBF4388A5D313219120DCF91A5 /* Build configuration list for PBXNativeTarget "TSBLocalNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE34DA630E29BA7F69CC31CA4DE6EAE1 /* Debug */,
+				F6A0FCA99A626A728EB2F99DE266A424 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFE75CE8B9694F6FC7FB76A1346D6167 /* Build configuration list for PBXNativeTarget "TSBLocalModel-Unit-TSBLocalModelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3853B8F47E33F63CBDC2C7C094E623B /* Debug */,
+				2186324B9EF326D00AF0D52EF60480C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFE5A2453D298702FE9BCE2882EDAB5A /* Build configuration list for PBXNativeTarget "Pods-London-LondonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4609AF89B00BEE31C6BBF42A660EB85 /* Debug */,
+				44020CCC767F38B00A8F2A56E606CAE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

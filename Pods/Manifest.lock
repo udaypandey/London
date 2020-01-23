@@ -1,20 +1,32 @@
 PODS:
+  - TSBLocalModel (0.1.0):
+    - TSBLocalNetwork
+  - TSBLocalModel/TSBLocalModelTests (0.1.0):
+    - TSBLocalNetwork
+  - TSBLocalModel/TSBLocalModelUITests (0.1.0):
+    - TSBLocalNetwork
   - TSBLocalNetwork (0.1.0)
   - TSBLocalNetwork/TSBLocalNetworkTests (0.1.0)
   - TSBLocalNetwork/TSBLocalNetworkUITests (0.1.0)
 
 DEPENDENCIES:
+  - TSBLocalModel (from `./TSBLocalModel`)
+  - TSBLocalModel/TSBLocalModelTests (from `./TSBLocalModel`)
+  - TSBLocalModel/TSBLocalModelUITests (from `./TSBLocalModel`)
   - TSBLocalNetwork (from `./TSBLocalNetwork`)
   - TSBLocalNetwork/TSBLocalNetworkTests (from `./TSBLocalNetwork`)
   - TSBLocalNetwork/TSBLocalNetworkUITests (from `./TSBLocalNetwork`)
 
 EXTERNAL SOURCES:
+  TSBLocalModel:
+    :path: "./TSBLocalModel"
   TSBLocalNetwork:
     :path: "./TSBLocalNetwork"
 
 SPEC CHECKSUMS:
+  TSBLocalModel: 47f93d55bf8b7ce7dbbbbe3edd80986ed9a0dbc2
   TSBLocalNetwork: c87746c0e729ce3f850dc44ab8b8b1096be8d662
 
-PODFILE CHECKSUM: cb3a69a28c8b40a2ed8152ec4f44107c9495f147
+PODFILE CHECKSUM: 630eba89c814a04b630871c2d69089d6bbb369d2
 
 COCOAPODS: 1.8.4
