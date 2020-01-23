@@ -7,7 +7,25 @@
 		<key>London.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>7</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>1CF1BEAF23D8A22600ACCA35</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1CF1BEC323D8A22700ACCA35</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1CF1BECE23D8A22700ACCA35</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

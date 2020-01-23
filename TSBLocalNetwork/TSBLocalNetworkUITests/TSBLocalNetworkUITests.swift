@@ -11,6 +11,8 @@ class NetworkTests: XCTestCase {
     }
 
     func testViewControllerSnapshot() {
+        
+        
     }
 }
 
