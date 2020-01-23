@@ -7,36 +7,34 @@
       buildImplicitDependencies = "YES">
       <BuildActionEntries>
          <BuildActionEntry
-            buildForAnalyzing = "YES"
             buildForTesting = "YES"
             buildForRunning = "YES"
             buildForProfiling = "YES"
-            buildForArchiving = "YES">
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4517C44D9E5015C52FBCF981EB370C88"
-               BuildableName = "TSBLocalNetwork.framework"
-               BlueprintName = "TSBLocalNetwork"
+               BlueprintIdentifier = "A8C25EF6632FCFB37BC378DEF9913273"
+               BuildableName = "TSBLocalModel.framework"
+               BlueprintName = "TSBLocalModel"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
+      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES"
-      buildConfiguration = "Debug">
-      <AdditionalOptions>
-      </AdditionalOptions>
+      shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "60F2551258A2EE95A6EEBFCECD2936E6"
-               BuildableName = "TSBLocalNetwork-Unit-TSBLocalNetworkTests.xctest"
-               BlueprintName = "TSBLocalNetwork-Unit-TSBLocalNetworkTests"
+               BlueprintIdentifier = "68346A0F37F4E18262D4892644B3C001"
+               BuildableName = "TSBLocalModel-Unit-TSBLocalModelTests.xctest"
+               BlueprintName = "TSBLocalModel-Unit-TSBLocalModelTests"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -44,15 +42,18 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7429F0215F54432C66A3736F1577ACB0"
-               BuildableName = "TSBLocalNetwork-UI-TSBLocalNetworkUITests.xctest"
-               BlueprintName = "TSBLocalNetwork-UI-TSBLocalNetworkUITests"
+               BlueprintIdentifier = "4F0C015EADB4AF1C35B3B27D2D5023B4"
+               BuildableName = "TSBLocalModel-UI-TSBLocalModelUITests.xctest"
+               BlueprintName = "TSBLocalModel-UI-TSBLocalModelUITests"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
+      <AdditionalOptions>
+      </AdditionalOptions>
    </TestAction>
    <LaunchAction
+      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
@@ -60,17 +61,25 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
-      buildConfiguration = "Debug"
       allowLocationSimulation = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "A8C25EF6632FCFB37BC378DEF9913273"
+            BuildableName = "TSBLocalModel.framework"
+            BlueprintName = "TSBLocalModel"
+            ReferencedContainer = "container:Pods.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
+      buildConfiguration = "Release"
+      shouldUseLaunchSchemeArgsEnv = "YES"
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
-      debugDocumentVersioning = "YES"
-      buildConfiguration = "Release"
-      shouldUseLaunchSchemeArgsEnv = "YES">
+      debugDocumentVersioning = "YES">
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
