@@ -1,0 +1,20 @@
+PODS:
+  - TSBLocalNetwork (0.1.0)
+  - TSBLocalNetwork/TSBLocalNetworkTests (0.1.0)
+  - TSBLocalNetwork/TSBLocalNetworkUITests (0.1.0)
+
+DEPENDENCIES:
+  - TSBLocalNetwork (from `./TSBLocalNetwork`)
+  - TSBLocalNetwork/TSBLocalNetworkTests (from `./TSBLocalNetwork`)
+  - TSBLocalNetwork/TSBLocalNetworkUITests (from `./TSBLocalNetwork`)
+
+EXTERNAL SOURCES:
+  TSBLocalNetwork:
+    :path: "./TSBLocalNetwork"
+
+SPEC CHECKSUMS:
+  TSBLocalNetwork: c87746c0e729ce3f850dc44ab8b8b1096be8d662
+
+PODFILE CHECKSUM: cb3a69a28c8b40a2ed8152ec4f44107c9495f147
+
+COCOAPODS: 1.8.4

@@ -1,0 +1,6 @@
+framework module Pods_London_LondonUITests {
+  umbrella header "Pods-London-LondonUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

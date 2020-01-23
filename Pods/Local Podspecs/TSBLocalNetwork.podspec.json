@@ -1,0 +1,35 @@
+{
+  "name": "TSBLocalNetwork",
+  "version": "0.1.0",
+  "summary": "A short description of TSBLocalNetwork.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/0c81d8d459de706c16e38e2832df70e6908acd5c/TSBLocalNetwork",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "0c81d8d459de706c16e38e2832df70e6908acd5c": "uday.pandey@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/0c81d8d459de706c16e38e2832df70e6908acd5c/TSBLocalNetwork.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "TSBLocalNetwork/Classes/**/*",
+  "testspecs": [
+    {
+      "name": "TSBLocalNetworkTests",
+      "test_type": "unit",
+      "source_files": "TSBLocalNetworkTests/**/*.swift"
+    },
+    {
+      "name": "TSBLocalNetworkUITests",
+      "test_type": "ui",
+      "requires_app_host": true,
+      "source_files": "TSBLocalNetworkUITests/**/*.swift"
+    }
+  ]
+}
